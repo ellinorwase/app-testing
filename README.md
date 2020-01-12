@@ -9,3 +9,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [ ] Enhetstestar och integrationstestar den viktigaste interaktionen i applikationen. Detta varierar från applikation till applikation men som exempel: om du t.ex. har en kommenteringsfunktion på din sida vill du säkertställa att kommenteringsfunktionen klarar av att kommentera samt vad som händer om vi skickar med felaktiga värden till kommentarsfunktionen.
 
 - [ ] Projektet ska versionshanteras och laddas upp via GitHub eller liknande tjänst. Om ni jobbar i par så ska båda personerna ha bidragit i lika stor grad att skriva testerna.
+
+
+Test coverage.
+kommandon:
+
+npm run test -- --collect-coverage
+npm run test -- --collect-coverage --watchAll=false
