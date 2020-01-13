@@ -12,7 +12,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 Test coverage.
-kommandon:
+
+Kommandon:
+
 
 npm run test -- --collect-coverage
+
 npm run test -- --collect-coverage --watchAll=false

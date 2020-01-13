@@ -1,0 +1,1 @@
+import SinglePost from '../components/SinglePost';
