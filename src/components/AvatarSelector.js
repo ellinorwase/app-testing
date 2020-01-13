@@ -6,7 +6,7 @@ import morgana from '../images/morgana.png';
 
 const AvatarSelector = ({ currentPersona }) => {
   let img = zac;
-  if (currentPersona === 'Frida') {
+  if (currentPersona === 'Zac') {
     img = zac;
   }
   if (currentPersona === 'Esmeralda') {
