@@ -29,7 +29,7 @@ class CreateNewComment extends Component {
         className='container mx-auto flex flex-col p-6'
       >
         <label htmlFor='comment' className='mb-2'>
-          Comment
+          Comment here
         </label>
         <textarea
           id='comment'
