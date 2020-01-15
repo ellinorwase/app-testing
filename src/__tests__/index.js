@@ -37,12 +37,11 @@ const randomAnswerIndex = generateRandomInt(0, responses.length - 1);
 function generateRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-test('bot Reply', () => {
 
+test('bot Reply', () => {
     const wrapper = require('../api/index');
     wrapper.botReply();
     const randomText = responses[randomAnswerIndex];
-
     expect(responses).toContain(randomText);
 });
 
