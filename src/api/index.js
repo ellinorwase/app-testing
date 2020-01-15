@@ -110,7 +110,7 @@ function generateRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-const responses = [
+export const responses = [
   'Hello there fellow human',
   'Nice game last night',
   'This weather huh!',
