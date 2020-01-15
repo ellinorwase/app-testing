@@ -9,7 +9,7 @@ test('renders the img', () => {
 });
 
 
-// test('renders the right img depending on name', () => {
+// test('renders the right img depending on user', () => {
 //   let wrapper = mount(<App />);
  
 //   expect(wrapper.find('img')).toBe('Zac');
