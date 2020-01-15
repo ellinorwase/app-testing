@@ -19,3 +19,5 @@ Kommandon:
 npm run test -- --collect-coverage
 
 npm run test -- --collect-coverage --watchAll=false
+
+npm run cypress:open
