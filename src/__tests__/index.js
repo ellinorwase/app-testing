@@ -10,21 +10,18 @@ if(!postsInLocalStorage){
   localStorage.setItem('posts', JSON.stringify(fakePosts.data));
 }
 
-// Testar att hämta alla inlägg
 test("get all posts", () => {
   const posts = require("../api/index");
   posts.fetchAllPosts();
   expect(posts.fetchAllPosts()).toHaveLength(3);
 });
 
-// Testa att det funkar att ta bort ett inlägg
 test('remove a post', () => {
     const postList = require('../api/index');
     postList.removePost("56tytd234");
     expect(postList.fetchAllPosts()).toHaveLength(2);
 });
 
-// Gör ingen skillnad 
 test('fetch Current Persona', () => {
     const wrapper = require('../api/index');
     wrapper.fetchCurrentPersona();
@@ -44,9 +41,8 @@ test('bot Reply', () => {
     const randomText = responses[randomAnswerIndex];
     expect(responses).toContain(randomText);
 });
+//
 
-
-// Gör ingen skillnad 
 test("get all comments", () => {
   const posts = require("../api/index");
   posts.fetchAllComments();
