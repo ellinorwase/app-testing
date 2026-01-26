@@ -42,7 +42,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "cypress": "^3.8.2",
+    "cypress": "^15.9.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
